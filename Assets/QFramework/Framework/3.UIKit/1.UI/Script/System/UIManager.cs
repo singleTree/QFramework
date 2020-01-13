@@ -199,8 +199,8 @@ namespace QFramework
 
 			if ((behaviour as UIPanel))
 			{
-				behaviour.Close();
 				mAllUI.Remove(behaviourName);
+				behaviour.Close();
 			}
 		}
 		
